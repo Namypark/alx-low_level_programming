@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#set the c file name
+CFILE="main.c"
+
+#compile the c filebut do not link
+gcc -c $CFILE -o ${CFILE%.c}.o
