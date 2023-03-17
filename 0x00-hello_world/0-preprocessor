@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Set the C file name
+CFILE="main.c"
+
+# Run the C file through the preprocessor and save the result to a file
+cpp $CFILE -o c
+
+echo "Preprocessed code saved to c file."
+
