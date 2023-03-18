@@ -10,7 +10,7 @@
  * Return: 0 if the program runs successfully
  */
 int main() {
-    char letter = 'a'; // start with 'a'
+    char letter = 'a';
     int i;
     
     
