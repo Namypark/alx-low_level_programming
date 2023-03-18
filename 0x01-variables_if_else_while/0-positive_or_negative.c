@@ -5,10 +5,9 @@
 
 /* betty style doc for function main goes there */
 
+/* Returns the value  */
 int main(void)
 {
-	/* Returns the value  */
-	
 	int n;
 
 	srand(time(0));
@@ -28,5 +27,5 @@ int main(void)
 		printf("is negative\n");
 	}
 	return (0);
-	/* Returns the value  */
 }
+/* Returns the value  */
