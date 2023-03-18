@@ -1,7 +1,3 @@
 #!/bin/bash
+INPUT_FILE=$CFILE OUTPUT_FILE=${CFILE%.c}.o gcc -c $INPUT_FILE -o $OUTPUT_FILE
 
-#set the c file name
-CFILE="main.c"
-
-#compile the c filebut do not link
-gcc -c $CFILE -o ${CFILE%.c}.o
