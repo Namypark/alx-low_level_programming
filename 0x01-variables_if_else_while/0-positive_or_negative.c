@@ -4,6 +4,15 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Entry point for the program
+ *
+ * This function takes an integer input from the user and checks whether it is
+ * positive or negative. It then prints an appropriate message to the console
+ * indicating the result.
+ *
+ * Return: 0 if the program runs successfully
+ */
 int main(void)
 {
 	int n;
@@ -12,7 +21,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	printf("%d ", n);
-	if (n > 0) 
+	if (n > 0)
 	{
 		printf("is positive\n");
 	}
@@ -26,3 +35,4 @@ int main(void)
 	}
 	return (0);
 }
+/* Returns the value  */
