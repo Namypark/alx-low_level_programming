@@ -8,21 +8,21 @@
  *
  * Return: 0 if the program runs successfully
  */
-int main(void) 
+int main(void)
 {
-    char letter = 'a';
-    int i;
+	char letter = 'a';
+	int i;
 
-    for (i = 0; i < 26; i++)
-    {
-        putchar(letter);
-        letter++;
-    }
-    letter = 'A';
-    for (i = 0; i < 26; i++)
-    {
-        putchar(letter);
-        letter++;
+	for (i = 0; i < 26; i++)
+	{
+		putchar(letter);
+		letter++;
+	}
+	letter = 'A';
+	for (i = 0; i < 26; i++)
+	{
+		putchar(letter);
+		letter++;
     }
 putchar('\n');
 return (0);
