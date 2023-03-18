@@ -8,23 +8,22 @@
  *
  * Return: 0 if the program runs successfully
  */
-int main() {
-    char letter = 'a'; 
+int main()
+{
+    char letter = 'a';
     int i;
     
     
-    for (i = 0; i < 26; i++) 
+    for (i = 0; i < 26; i++)
     {
 	if (letter != 'e' && letter != 'q')
 	{
 	    putchar(letter);
 	}
-        letter++; 
+        letter++;
     }
     
-   
-    putchar('\n'); 
-    
+    putchar('\n');
     return 0;
 }
 
