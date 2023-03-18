@@ -5,7 +5,8 @@
 
 /* betty style doc for function main goes there */
 
-/* Returns the value  */
+/* Description: program takes an integer input from the user and
+   checks if it is positive or negative. */
 int main(void)
 {
 	int n;
