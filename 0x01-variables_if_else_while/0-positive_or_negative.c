@@ -4,11 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/**
-	 * Description:  A column of asterisks on the left side,
-	 */
+
 int main(void)
 {
+	/* Returns the value  */
+	
 	int n;
 
 	srand(time(0));
@@ -28,4 +28,5 @@ int main(void)
 		printf("is negative\n");
 	}
 	return (0);
+	/* Returns the value  */
 }
