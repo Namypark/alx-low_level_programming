@@ -8,22 +8,20 @@
  *
  * Return: 0 if the program runs successfully
  */
-int main()
+int main(void)
 {
-    char letter = 'a';
-    int i;
-    
-    
-    for (i = 0; i < 26; i++)
-    {
-	if (letter != 'e' && letter != 'q')
+	char letter = 'a';
+	int i;
+
+	for (i = 0; i < 26; i++)
 	{
-	    putchar(letter);
+		if (letter != 'e' && letter != 'q')
+		{
+			putchar(letter);
+		}
+		letter++;
 	}
-        letter++;
-    }
-    
-    putchar('\n');
-    return 0;
+putchar('\n');
+return (0);
 }
 
