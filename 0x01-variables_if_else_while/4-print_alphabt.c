@@ -8,7 +8,7 @@
  *
  * Return: 0 if the program runs successfully
  */
-int main() 
+int main()
 {
     char letter = 'a';
     int i;
