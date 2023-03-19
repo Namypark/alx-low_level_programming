@@ -1,3 +1,2 @@
 #!/bin/bash
 INPUT_FILE=$CFILE OUTPUT_FILE=c cpp $INPUT_FILE -o c
-
