@@ -1,3 +1,2 @@
 #!/bin/bash
-INPUT_FILE=$CFILE OUTPUT_FILE=${CFILE%.c}.o gcc -c $INPUT_FILE -o $OUTPUT_FILE
-
+gcc -c $CFILE
